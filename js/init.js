@@ -17,3 +17,8 @@ if ("serviceWorker" in navigator) {
     );
   });
 }
+
+$(document).ready(function(){
+  $('.modal').modal();
+});
+
