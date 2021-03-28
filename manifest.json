@@ -3,20 +3,20 @@
     "name": "Dietitian Jyoti",
     "icons": [
         {
-            "src": "./content/favicon.ico",
+            "src": "./content/logo64.png",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
         },
         {
-            "src": "./content/logo192.png",
+            "src": "./content/logo28.png",
             "type": "image/png",
-            "sizes": "192x192",
+            "sizes": "128x128",
             "purpose": "any maskable"
         },
         {
-            "src": "./content/logo512.png",
+            "src": "./content/logo256.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "256x256"
         }
     ],
     "start_url": ".",
