@@ -1,0 +1,26 @@
+{
+    "short_name": "Dietitian Jyoti",
+    "name": "Dietitian Jyoti",
+    "icons": [
+        {
+            "src": "./content/favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "./content/logo192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "./content/logo512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#009688",
+    "background_color": "#ffffff"
+}
