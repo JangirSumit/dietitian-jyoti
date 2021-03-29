@@ -33,6 +33,11 @@ p {
   height: 250px;
 }
 
+.responsive-img {
+  height: 200px;
+  width: 200px;
+}
+
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
@@ -59,3 +64,5 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+/* Timeline */
