@@ -98,6 +98,7 @@ h2 {
   white-space: nowrap;
   padding: 0 20px;
   border-radius: 6px 0 0 6px;
+  width: 250px;
 }
 .timeline__event__icon {
   display: flex;
@@ -218,6 +219,7 @@ h2 {
   .timeline__event__date {
     border-radius: 0;
     padding: 20px;
+    width: 100%;
   }
   .timeline__event:nth-child(2n + 1) {
     flex-direction: column;
