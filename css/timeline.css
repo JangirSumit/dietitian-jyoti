@@ -200,6 +200,7 @@ h2 {
   .timeline__event {
     flex-direction: column;
     align-self: center;
+    width: 80vw;
   }
   .timeline__event__content {
     width: 100%;
