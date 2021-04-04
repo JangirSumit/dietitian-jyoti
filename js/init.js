@@ -18,7 +18,6 @@ if ("serviceWorker" in navigator) {
   });
 }
 
-$(document).ready(function(){
-  $('.modal').modal();
+$(document).ready(function () {
+  $(".modal").modal();
 });
-
