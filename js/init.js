@@ -46,6 +46,7 @@ function getNavBar() {
         <li><a href="blogs.html">Blogs</a></li>
         <li><a href="appointment.html">Book Appointment</a></li>
         <li><a href="about.html">About Me</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -54,7 +55,7 @@ function getNavBar() {
         <li><a href="plans.html">Plans</a></li>
         <li><a href="blogs.html">Blogs</a></li>
         <li><a href="appointment.html">Book Appointment</a></li>
-        <li><a href="about.html">About Me</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -92,6 +93,17 @@ function getFooter() {
             </li>
             <li><a class="white-text" target="_blank" href="https://www.lybrate.com/gurgaon/doctor/jyoti-jangid-para-clinical-expert">Lybrate</a></li>
             <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/dt-jyoti-jangid/">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Our Policies</h5>
+          <ul>
+            <li>
+              <a class="white-text" target="_blank" href="terms-conditions.html">Terms and Conditions</a>
+            </li>
+            <li>
+              <a class="white-text" target="_blank" href="faq.html">FAQ</a>
+            </li>
           </ul>
         </div>
       </div>
