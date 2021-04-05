@@ -66,7 +66,7 @@ function getFooter() {
   return `
   <div class="container">
       <div class="row">
-        <div class="col l6 s12">
+        <div class="col l3 s12">
           <h5 class="white-text">Diet Plans</h5>
           <p class="grey-text text-lighten-4">
           <ul>
@@ -86,6 +86,20 @@ function getFooter() {
           </p>
         </div>
         <div class="col l3 s12">
+          <h5 class="white-text">Links</h5>
+          <p class="grey-text text-lighten-4">
+          <ul>
+          <li><a class="white-text" href="index.html">Home</a></li>
+          <li><a class="white-text" href="tips.html">Tips</a></li>
+          <li><a class="white-text" href="plans.html">Plans</a></li>
+          <li><a class="white-text" href="blogs.html">Blogs</a></li>
+          <li><a class="white-text" href="appointment.html">Book Appointment</a></li>
+          <li><a class="white-text" href="about.html">About Me</a></li>
+          <li><a class="white-text" href="contacts.html">Contacts</a></li>
+          </ul>
+          </p>
+        </div>
+        <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
             <li>
@@ -95,11 +109,15 @@ function getFooter() {
             <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/dt-jyoti-jangid/">LinkedIn</a></li>
           </ul>
         </div>
+        
         <div class="col l3 s12">
           <h5 class="white-text">Our Policies</h5>
           <ul>
             <li>
               <a class="white-text" target="_blank" href="terms-conditions.html">Terms and Conditions</a>
+            </li>
+            <li>
+              <a class="white-text" target="_blank" href="cancellation.html">Cancellation Policy</a>
             </li>
             <li>
               <a class="white-text" target="_blank" href="faq.html">FAQ</a>
