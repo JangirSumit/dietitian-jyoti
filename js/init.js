@@ -131,7 +131,7 @@ function getFooter() {
         Developed by
           <a
           class="brown-text text-lighten-3"
-          >JangirTechnologies</a
+          >TechJunkies</a
         > 
       </div>
     </div>
