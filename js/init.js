@@ -1,7 +1,7 @@
 (function ($) {
   $(function () {
-    $(".sidenav").sidenav();
     $(".parallax").parallax();
+    //$(".sidenav").sidenav();
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
@@ -22,6 +22,7 @@ $(document).ready(function () {
   $(".modal").modal();
   $(".nav-bar").html(getNavBar());
   $(".page-footer").html(getFooter());
+  $(".sidenav").sidenav();
 
   var payment_id = getParameterByName("payment_id");
 });
