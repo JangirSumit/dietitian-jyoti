@@ -23,6 +23,7 @@ $(document).ready(function () {
   $(".nav-bar").html(getNavBar());
   $(".page-footer").html(getFooter());
   $(".sidenav").sidenav();
+  $(".collapsible").collapsible();
 
   var payment_id = getParameterByName("payment_id");
 });
@@ -39,24 +40,25 @@ function getParameterByName(name, url = window.location.href) {
 function getNavBar() {
   return `
   <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img height="60" src="content/logo.png" alt="" srcset="" /></a>
+      <a id="logo-container" href="index.html" class="brand-logo"><img height="60" src="content/logo.png" alt="dietitian-jyoti-logo" srcset="" /></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tips.html">Tips</a></li>
-        <li><a href="plans.html">Plans</a></li>
-        <li><a href="blogs.html">Blogs</a></li>
-        <li><a href="appointment.html">Book Appointment</a></li>
-        <li><a href="about.html">About Me</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
+        <li><a class="teal-text" href="index.html">Home</a></li>
+        <li><a class="teal-text" href="tips.html">Tips</a></li>
+        <li><a class="teal-text" href="plans.html">Plans</a></li>
+        <li><a class="teal-text" href="blogs.html">Blogs</a></li>
+        <li><a class="teal-text" href="appointment.html">Book Appointment</a></li>
+        <li><a class="teal-text" href="about.html">About Me</a></li>
+        <li><a class="teal-text" href="contacts.html">Contacts</a></li>
       </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="tips.html">Tips</a></li>
-        <li><a href="plans.html">Plans</a></li>
-        <li><a href="blogs.html">Blogs</a></li>
-        <li><a href="appointment.html">Book Appointment</a></li>
-        <li><a href="contacts.html">Contacts</a></li>
+      <ul id="nav-mobile" class="sidenav teal-text">
+        <li><a class="teal-text" href="index.html">Home</a></li>
+        <li><a class="teal-text" href="tips.html">Tips</a></li>
+        <li><a class="teal-text" href="plans.html">Plans</a></li>
+        <li><a class="teal-text" href="blogs.html">Blogs</a></li>
+        <li><a class="teal-text" href="appointment.html">Book Appointment</a></li>
+        <li><a class="teal-text" href="about.html">About Me</a></li>
+        <li><a class="teal-text" href="contacts.html">Contacts</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
