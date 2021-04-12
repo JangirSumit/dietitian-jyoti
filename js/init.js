@@ -143,7 +143,7 @@ function getFooter() {
             <li>
               <a class="white-text" target="_blank" href="https://www.instagram.com/eat_fit1/">Instgram</a>
             </li>
-            <li><a class="white-text" target="_blank" href="https://www.lybrate.com/gurgaon/doctor/jyoti-jangid-para-clinical-expert">Lybrate</a></li>
+            <li><a class="white-text" target="_blank" href="https://www.practo.com/gurgaon/therapist/dt-jyoti-jangid-dietitian-nutritionist">Practo</a></li>
             <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/dt-jyoti-jangid/">LinkedIn</a></li>
           </ul>
         </div>
