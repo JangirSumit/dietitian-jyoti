@@ -45,23 +45,12 @@ self.addEventListener("activate", function (event) {
   self.clients.claim();
 });
 
-// self.addEventListener("fetch", function (event) {
-//   event.respondWith(
-//     caches.match(event.request).then(function (response) {
-//       if (response) {
-//         return response;
-//       } else {
-//         return fetch(event.request)
-//           .then(function (res) {
-//             return caches.open(DYNAMIC_CACHE).then(function (cache) {
-//               cache.put(event.request.url, res.clone());
-//               return res;
-//             });
-//           })
-//           .catch((error) => {
-//             return caches.match("404.html").then((response) => response);
-//           });
-//       }
-//     })
-//   );
-// });
+self.addEventListener("fetch", function (event) {
+  return fetch(event.request)
+    .then(function (res) {
+      return res;
+    })
+    .catch((error) => {
+      return caches.match("404.html").then((response) => response);
+    });
+});
