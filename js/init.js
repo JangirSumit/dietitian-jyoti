@@ -158,6 +158,10 @@ function getFooter() {
               <a class="white-text" target="_blank" href="cancellation.html">Cancellation Policy</a>
             </li>
             <li>
+              <a class="white-text" target="_blank" href="privacy-policy.html">Privacy Policy</a>
+            </li>
+            
+            <li>
               <a class="white-text" target="_blank" href="faq.html">FAQ</a>
             </li>
           </ul>
